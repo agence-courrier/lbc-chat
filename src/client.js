@@ -8,7 +8,7 @@ const httpLink = new HttpLink({
 });
 
 const wsLink = new WebSocketLink({
-  uri: `ws://discrete-salmon-33.hasura.app/v1/graphql`,
+  uri: `wss://discrete-salmon-33.hasura.app/v1/graphql`,
   options: {
     reconnect: true
   }
